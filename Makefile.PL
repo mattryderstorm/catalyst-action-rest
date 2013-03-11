@@ -21,6 +21,7 @@ requires('Data::Serializer'          => '0.36');
 requires('Class::Inspector'          => '1.13');
 requires('URI::Find'                 => undef);
 requires('MRO::Compat'               => '0.10');
+requires('Data::Plist' => '0.1');
 
 requires 'namespace::autoclean';
 test_requires 'Test::More' => '0.88';
